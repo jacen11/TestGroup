@@ -1,4 +1,4 @@
-package com.test.testgroup;
+package com.test.testgroup.ui.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,8 @@ import android.widget.Toast;
 
 import com.arellomobile.mvp.MvpAppCompatActivity;
 import com.arellomobile.mvp.presenter.InjectPresenter;
+import com.test.testgroup.CurrentUser;
+import com.test.testgroup.R;
 import com.test.testgroup.consts.ApiConstants;
 
 import com.test.testgroup.mvp.presenter.MainPresenter;
