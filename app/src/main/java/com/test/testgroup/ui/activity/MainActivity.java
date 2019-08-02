@@ -25,7 +25,6 @@ public class MainActivity extends BaseActivity implements MainView {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
         //  VKSdk.login(this, ApiConstants.DEFOULT_LOGIN_SCOPE);
         mainPresenter.checkAuth();
