@@ -12,7 +12,7 @@ public class MainPresenter extends MvpPresenter<MainView> {
         if (!CurrentUser.isAuthorized()) {
             getViewState().startSignIn();
         } else {
-            getViewState().signedId();
+            getViewState().signedIn();
         }
     }
 
