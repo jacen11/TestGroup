@@ -32,4 +32,5 @@ dependencies {
     annotationProcessor 'com.arello-mobile:moxy-compiler:1.5.5'
     implementation 'com.arello-mobile:moxy-android:1.5.5'
     implementation 'com.arello-mobile:moxy-app-compat:1.5.5'
+    implementation 'com.android.support:recyclerview-v7:25.3.1'
 }

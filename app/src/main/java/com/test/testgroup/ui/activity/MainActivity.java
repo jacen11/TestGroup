@@ -10,6 +10,7 @@ import com.test.testgroup.R;
 import com.test.testgroup.consts.ApiConstants;
 import com.test.testgroup.mvp.presenter.MainPresenter;
 import com.test.testgroup.mvp.view.MainView;
+import com.test.testgroup.ui.fragment.NewsFeedFragment;
 import com.vk.sdk.VKAccessToken;
 import com.vk.sdk.VKCallback;
 import com.vk.sdk.VKSdk;
@@ -61,5 +62,6 @@ public class MainActivity extends BaseActivity implements MainView {
     @Override
     public void signedIn() {
         Toast.makeText(this, "Current user id:" + CurrentUser.getId(), Toast.LENGTH_LONG).show();
+        setContent(new NewsFeedFragment());
     }
 }
